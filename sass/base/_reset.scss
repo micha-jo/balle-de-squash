@@ -1,0 +1,22 @@
+@use "../utils/_colors" as colors;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*::selection {
+  background: colors.$dark;
+  color: colors.$light;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+  
+
+ul{
+  list-style: none;
+}

@@ -1,0 +1,6 @@
+@use "../utils/_colors" as colors;
+
+body{
+  background:radial-gradient(farthest-corner at top right , rgb(255, 255, 255) 0%, darken(colors.$light, 25) 100%);
+  height: 200vh;
+}
